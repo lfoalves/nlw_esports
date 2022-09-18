@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body::-webkit-scrollbar {width: 4px; }
+body::-webkit-scrollbar-track {background: #321c41; }
+body::-webkit-scrollbar-thumb {background: linear-gradient(180deg, #9572FC 0%, #43E7AD 50%, #E1D55D 100%); border-radius: 20px; border: 0px solid orange; }
