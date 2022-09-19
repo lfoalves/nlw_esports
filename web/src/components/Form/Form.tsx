@@ -43,7 +43,7 @@ export function Form() {
           useVoiceChannel: useVoiceChannel
         }
       )
-      alert('Anúcio criado com sucesso!')
+      alert('Anúncio criado com sucesso!')
       window.location.reload()
     } catch (err) {
       alert('Erro ao criar anúncio')
